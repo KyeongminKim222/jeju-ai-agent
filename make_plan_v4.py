@@ -129,7 +129,7 @@ S7 = sl("06", "데모 ② 오늘 어디 한가하우꽈", "1월 일요일, 아�
   <div class="qa"><div class="q">Q. {Q2}</div>{R2['answer'][:120]}…</div>
   <div class="card" style="padding:3mm 5mm"><h3 style="font-size:13pt;margin-bottom:1mm">추천 3곳</h3>{spot}
    {f"<div class='sm' style='margin-top:2mm'>가장 붐빌 곳: <b style='color:#A3242A'>{av['관광지']}</b> (혼잡 {av['혼잡지수']:.2f})</div>" if av else ''}</div>
-  <div class="card" style="flex:1;min-height:0;padding:2mm"><img class="fimg" style="max-height:100%" src="{IMG_HOUR}"></div>
+  <div class="card" style="height:34mm;flex:none;padding:1.5mm;align-items:center"><img src="{IMG_HOUR}" style="height:100%;width:auto;display:block"></div>
  </div></div>""", 7, "혼잡지수 = (그 달 입장객÷연평균) × 요일 지수 × 시간대 지수 · 원래 한산한 하위 25% 제외 · #189·#190·#504·#520")
 
 SRC = [("#748", "카드매출×유동인구(매쉬업)", "읍면동×업종×월 카드 이용금액, 거주·근무·방문인구", "2017.01~2021.05", "6대 지표"),
