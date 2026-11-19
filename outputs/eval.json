@@ -1,0 +1,337 @@
+{
+ "llm": true,
+ "model": "qwen2.5:3b",
+ "cases": [
+  {
+   "mode": "규칙",
+   "q": "애월에 카페 하나 차리면 괜찮수과?",
+   "ok": true,
+   "tool": "diagnose",
+   "area": "애월읍",
+   "biz": "카페"
+  },
+  {
+   "mode": "규칙",
+   "q": "함덕에 술집 차리면 어때요",
+   "ok": true,
+   "tool": "diagnose",
+   "area": "조천읍",
+   "biz": "술집"
+  },
+  {
+   "mode": "규칙",
+   "q": "서귀포 시내에서 빵집 하면 괜찮을까",
+   "ok": true,
+   "tool": "diagnose",
+   "area": "중앙동",
+   "biz": "빵집"
+  },
+  {
+   "mode": "규칙",
+   "q": "노형동 편의점 매출 괜찮나요",
+   "ok": true,
+   "tool": "diagnose",
+   "area": "노형동",
+   "biz": "편의점"
+  },
+  {
+   "mode": "규칙",
+   "q": "표선에 횟집 열면 망할까요",
+   "ok": true,
+   "tool": "diagnose",
+   "area": "표선면",
+   "biz": "일식·횟집"
+  },
+  {
+   "mode": "규칙",
+   "q": "세화에 게스트하우스 하려는데",
+   "ok": true,
+   "tool": "diagnose",
+   "area": "구좌읍",
+   "biz": "숙박(모텔·여관)"
+  },
+  {
+   "mode": "규칙",
+   "q": "연동에서 한식당 하면 장사 될까요",
+   "ok": true,
+   "tool": "diagnose",
+   "area": "연동",
+   "biz": "한식당"
+  },
+  {
+   "mode": "규칙",
+   "q": "우도에 카페 열면?",
+   "ok": true,
+   "tool": "diagnose",
+   "area": "우도면",
+   "biz": "카페"
+  },
+  {
+   "mode": "규칙",
+   "q": "성산에 펜션 하나 더 열면 어떵 되우꽈",
+   "ok": true,
+   "tool": "diagnose",
+   "area": "성산읍",
+   "biz": "숙박(모텔·여관)"
+  },
+  {
+   "mode": "규칙",
+   "q": "모슬포에 치킨집 차려도 될까",
+   "ok": true,
+   "tool": "diagnose",
+   "area": "대정읍",
+   "biz": "치킨·피자·버거"
+  },
+  {
+   "mode": "규칙",
+   "q": "렌터카 사업 어느 동네가 나아요",
+   "ok": true,
+   "tool": "compare",
+   "area": null,
+   "biz": "렌터카"
+  },
+  {
+   "mode": "규칙",
+   "q": "화장품 가게 하기 좋은 동네",
+   "ok": true,
+   "tool": "compare",
+   "area": null,
+   "biz": "화장품"
+  },
+  {
+   "mode": "규칙",
+   "q": "치킨집 하기 좋은 동네 어디우꽈?",
+   "ok": true,
+   "tool": "compare",
+   "area": null,
+   "biz": "치킨·피자·버거"
+  },
+  {
+   "mode": "규칙",
+   "q": "중문 근처 7월 일요일 오전에 한가한 데",
+   "ok": true,
+   "tool": "quiet",
+   "area": "중문동",
+   "biz": null
+  },
+  {
+   "mode": "규칙",
+   "q": "비 오는 날 실내 갈 데 덜 붐비는 곳",
+   "ok": true,
+   "tool": "quiet",
+   "area": null,
+   "biz": null
+  },
+  {
+   "mode": "규칙",
+   "q": "주말에 애들이랑 사람 없는 데 가고 싶어",
+   "ok": true,
+   "tool": "quiet",
+   "area": null,
+   "biz": null
+  },
+  {
+   "mode": "규칙",
+   "q": "8월 토요일 오후 2시에 덜 붐비는 데 어디?",
+   "ok": true,
+   "tool": "quiet",
+   "area": null,
+   "biz": null
+  },
+  {
+   "mode": "규칙",
+   "q": "다음 주말 동쪽에 사람 적은 관광지 추천해줘",
+   "ok": true,
+   "tool": "quiet",
+   "area": null,
+   "biz": null
+  },
+  {
+   "mode": "규칙",
+   "q": "1월 일요일 비 오는데 애들이랑 갈 만한 실내 어디 한가해요?",
+   "ok": true,
+   "tool": "quiet",
+   "area": null,
+   "biz": null
+  },
+  {
+   "mode": "규칙",
+   "q": "설 연휴에 서귀포 쪽 덜 붐비는 데",
+   "ok": true,
+   "tool": "quiet",
+   "area": null,
+   "biz": null
+  },
+  {
+   "mode": "LLM+규칙",
+   "q": "애월에 카페 하나 차리면 괜찮수과?",
+   "ok": true,
+   "tool": "diagnose",
+   "area": "애월읍",
+   "biz": "카페"
+  },
+  {
+   "mode": "LLM+규칙",
+   "q": "함덕에 술집 차리면 어때요",
+   "ok": true,
+   "tool": "diagnose",
+   "area": "조천읍",
+   "biz": "술집"
+  },
+  {
+   "mode": "LLM+규칙",
+   "q": "서귀포 시내에서 빵집 하면 괜찮을까",
+   "ok": true,
+   "tool": "diagnose",
+   "area": "중앙동",
+   "biz": "빵집"
+  },
+  {
+   "mode": "LLM+규칙",
+   "q": "노형동 편의점 매출 괜찮나요",
+   "ok": true,
+   "tool": "diagnose",
+   "area": "노형동",
+   "biz": "편의점"
+  },
+  {
+   "mode": "LLM+규칙",
+   "q": "표선에 횟집 열면 망할까요",
+   "ok": true,
+   "tool": "diagnose",
+   "area": "표선면",
+   "biz": "일식·횟집"
+  },
+  {
+   "mode": "LLM+규칙",
+   "q": "세화에 게스트하우스 하려는데",
+   "ok": true,
+   "tool": "diagnose",
+   "area": "구좌읍",
+   "biz": "숙박(모텔·여관)"
+  },
+  {
+   "mode": "LLM+규칙",
+   "q": "연동에서 한식당 하면 장사 될까요",
+   "ok": true,
+   "tool": "diagnose",
+   "area": "연동",
+   "biz": "한식당"
+  },
+  {
+   "mode": "LLM+규칙",
+   "q": "우도에 카페 열면?",
+   "ok": true,
+   "tool": "diagnose",
+   "area": "우도면",
+   "biz": "카페"
+  },
+  {
+   "mode": "LLM+규칙",
+   "q": "성산에 펜션 하나 더 열면 어떵 되우꽈",
+   "ok": true,
+   "tool": "diagnose",
+   "area": "성산읍",
+   "biz": "숙박(모텔·여관)"
+  },
+  {
+   "mode": "LLM+규칙",
+   "q": "모슬포에 치킨집 차려도 될까",
+   "ok": true,
+   "tool": "diagnose",
+   "area": "대정읍",
+   "biz": "치킨·피자·버거"
+  },
+  {
+   "mode": "LLM+규칙",
+   "q": "렌터카 사업 어느 동네가 나아요",
+   "ok": true,
+   "tool": "compare",
+   "area": null,
+   "biz": "렌터카"
+  },
+  {
+   "mode": "LLM+규칙",
+   "q": "화장품 가게 하기 좋은 동네",
+   "ok": true,
+   "tool": "compare",
+   "area": null,
+   "biz": "화장품"
+  },
+  {
+   "mode": "LLM+규칙",
+   "q": "치킨집 하기 좋은 동네 어디우꽈?",
+   "ok": true,
+   "tool": "compare",
+   "area": null,
+   "biz": "치킨·피자·버거"
+  },
+  {
+   "mode": "LLM+규칙",
+   "q": "중문 근처 7월 일요일 오전에 한가한 데",
+   "ok": true,
+   "tool": "quiet",
+   "area": "중문동",
+   "biz": null
+  },
+  {
+   "mode": "LLM+규칙",
+   "q": "비 오는 날 실내 갈 데 덜 붐비는 곳",
+   "ok": true,
+   "tool": "quiet",
+   "area": null,
+   "biz": null
+  },
+  {
+   "mode": "LLM+규칙",
+   "q": "주말에 애들이랑 사람 없는 데 가고 싶어",
+   "ok": true,
+   "tool": "quiet",
+   "area": null,
+   "biz": null
+  },
+  {
+   "mode": "LLM+규칙",
+   "q": "8월 토요일 오후 2시에 덜 붐비는 데 어디?",
+   "ok": true,
+   "tool": "quiet",
+   "area": null,
+   "biz": null
+  },
+  {
+   "mode": "LLM+규칙",
+   "q": "다음 주말 동쪽에 사람 적은 관광지 추천해줘",
+   "ok": true,
+   "tool": "quiet",
+   "area": null,
+   "biz": null
+  },
+  {
+   "mode": "LLM+규칙",
+   "q": "1월 일요일 비 오는데 애들이랑 갈 만한 실내 어디 한가해요?",
+   "ok": true,
+   "tool": "quiet",
+   "area": null,
+   "biz": null
+  },
+  {
+   "mode": "LLM+규칙",
+   "q": "설 연휴에 서귀포 쪽 덜 붐비는 데",
+   "ok": true,
+   "tool": "quiet",
+   "area": null,
+   "biz": null
+  }
+ ],
+ "규칙": {
+  "정확도": "20/20",
+  "평균응답초": 0.13,
+  "최대응답초": 0.31
+ },
+ "LLM+규칙": {
+  "정확도": "20/20",
+  "평균응답초": 0.33,
+  "최대응답초": 0.53
+ },
+ "재현성": "같은 질문 10회 → 서로 다른 답 1개"
+}
